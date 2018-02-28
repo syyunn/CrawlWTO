@@ -477,3 +477,5 @@ chrono.df
 ```python
 df.to_csv("~/wto.csv") #or the file is already on github
 ```
+
+### Comment: Now the code updated, you dataframe contains about which articles are cited and whether the panel_report exist also.
