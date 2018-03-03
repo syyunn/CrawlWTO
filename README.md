@@ -1,3 +1,5 @@
+### What is this repository for?
+> This repo provides automated task of crawling the relevant info of DS(Dispute Settlement) cases posted on wto offical page. The relavant info comprises 1) DS number 2) DS cited Articles 3) Complianant and Respondent 4) Factual Aspect 5) Summary of who's won and defeated
 
 ### Import WTO_Chrono
 
