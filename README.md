@@ -452,5 +452,3 @@ chrono.df
 </table>
 <p>538 rows × 4 columns</p>
 </div>
-
-### Comment: Now the code updated, you dataframe contains about which articles are cited and whether the panel_report exist also.
