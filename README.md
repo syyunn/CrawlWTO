@@ -1,28 +1,10 @@
 ### What is this repository for?
-> This repo provides automated task of crawling the relevant info of DS(Dispute Settlement) cases posted on wto offical page. The relavant info comprises 1) DS number 2) DS cited Articles 3) Complianant and Respondent 4) Factual Aspect 5) Summary of who's won and defeated
+This repo provides automated task of crawling the relevant info of DS(Dispute Settlement) cases posted on wto offical page. The relavant info comprises 1) DS number 2) DS cited Articles 3) Complianant and Respondent 4) Factual Aspect 5) Summary of who's won and defeated
 
-### Import WTO_Chrono
+### Just Run main in chrono.py
+> python chronon.py
 
-
-```python
-from WTO_Chrono import Chrono
-```
-
-### Make an Instance using Chrono( )
-
-
-```python
-chrono = Chrono()
-```
-
-### Run .chrono_pandas(  ) in created instance
-
-
-```python
-chrono.chrono_pandas() #take a while, around 3min
-```
-
-# Done : check your result using .df
+# Done : check your result at ~/Desktop/wto.csv
 
 
 ```python
@@ -470,14 +452,5 @@ chrono.df
 </table>
 <p>538 rows × 4 columns</p>
 </div>
-
-
-
-### Don't forget to Save It
-
-
-```python
-df.to_csv("~/wto.csv") #or the file is already on github
-```
 
 ### Comment: Now the code updated, you dataframe contains about which articles are cited and whether the panel_report exist also.
